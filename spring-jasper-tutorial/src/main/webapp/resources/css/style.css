@@ -1,0 +1,21 @@
+body {
+	font-family: Arial, sans-serif;
+	width: 700px;
+	margin: auto;
+}
+
+h1, hr {
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner {
+	background: black;
+	padding: 5px;
+	color: white;
+	margin-top: 5px;
+}
+
+table {
+	font-size: 1em;
+}
