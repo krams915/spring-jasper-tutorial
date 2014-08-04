@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="users" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="users" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b2497643-ac8c-4366-97c7-bccd4b4c96f0">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
@@ -23,7 +23,7 @@
 		<groupHeader>
 			<band height="37">
 				<frame>
-					<reportElement mode="Opaque" x="-21" y="7" width="843" height="24" forecolor="#B89F7D" backcolor="#F2EBDF"/>
+					<reportElement mode="Opaque" x="-21" y="7" width="843" height="24" forecolor="#B89F7D" backcolor="#F2EBDF" uuid="bf2f8da4-0890-4901-bfd0-5052e1dac69c"/>
 				</frame>
 			</band>
 		</groupHeader>
@@ -43,32 +43,32 @@
 	<title>
 		<band height="136" splitType="Stretch">
 			<image>
-				<reportElement x="0" y="0" width="164" height="126"/>
+				<reportElement x="0" y="0" width="164" height="126" uuid="f9530213-c642-48ca-9cd3-5079fc38bfe9"/>
 				<imageExpression><![CDATA["coffee.jpg"]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement style="Title" x="172" y="0" width="461" height="62"/>
+				<reportElement style="Title" x="172" y="0" width="461" height="62" uuid="f5aad410-ce4a-4a1a-a1ab-18103c561179"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" isItalic="true" pdfFontName="Times-Roman"/>
 				</textElement>
 				<text><![CDATA[User Records]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="SubTitle" x="303" y="62" width="196" height="22"/>
+				<reportElement style="SubTitle" x="303" y="62" width="196" height="22" uuid="27125f1b-f636-4679-af5c-ac07bf0ed2bb"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" pdfFontName="Times-Roman"/>
 				</textElement>
 				<text><![CDATA[A Summary]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="172" y="94" width="461" height="42"/>
+				<reportElement x="172" y="94" width="461" height="42" uuid="94cb3c8b-40bd-4f5a-882c-8bc8e6ced818"/>
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
 				<text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor purus gravida arcu aliquam mattis. Donec et nulla libero, ut varius massa. Nulla sed turpis elit. Etiam aliquet mauris a ligula hendrerit in auctor leo lobortis.]]></text>
 			</staticText>
 			<image>
-				<reportElement x="633" y="-73" width="219" height="209"/>
+				<reportElement x="633" y="-73" width="219" height="209" uuid="335e9559-08f5-4a76-95aa-40ac6f13c9f7"/>
 				<imageExpression><![CDATA["coffee_stain.png"]]></imageExpression>
 			</image>
 		</band>
@@ -79,65 +79,67 @@
 	<columnHeader>
 		<band height="25" splitType="Stretch">
 			<line>
-				<reportElement positionType="FixRelativeToBottom" x="1" y="0" width="802" height="1"/>
+				<reportElement positionType="FixRelativeToBottom" x="1" y="0" width="802" height="1" uuid="0b1dbf72-d041-4944-a419-320f2b808448"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#999999"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement x="1" y="1" width="100" height="20"/>
-				<textElement/>
+				<reportElement x="1" y="1" width="100" height="20" uuid="112787dc-1a7b-454a-b8ff-d9b2122d69cc"/>
 				<text><![CDATA[ID]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="130" y="2" width="100" height="20"/>
-				<textElement/>
-				<text><![CDATA[Username]]></text>
+				<reportElement x="130" y="2" width="100" height="20" uuid="de209d68-47cc-4340-90dd-1100ac0f7007"/>
+				<textElement>
+					<font fontName="宋体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[用户名]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="286" y="2" width="100" height="20"/>
-				<textElement/>
-				<text><![CDATA[First Name]]></text>
+				<reportElement x="286" y="2" width="100" height="20" uuid="e1c6b398-0831-4383-aba0-c91410cf36ea"/>
+				<textElement>
+					<font fontName="宋体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[名]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="439" y="0" width="100" height="20"/>
-				<textElement/>
-				<text><![CDATA[Last Name]]></text>
+				<reportElement x="439" y="0" width="100" height="20" uuid="0a67d54e-71b2-4417-b6e9-0fe98e5473f6"/>
+				<textElement>
+					<font fontName="宋体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[姓]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="588" y="0" width="100" height="20"/>
-				<textElement/>
-				<text><![CDATA[Role]]></text>
+				<reportElement x="588" y="0" width="100" height="20" uuid="99b1f695-dd0a-4c5c-8a42-b407212c6f7d"/>
+				<textElement>
+					<font fontName="宋体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[角色]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
 		<band height="30" splitType="Stretch">
 			<frame>
-				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="30"/>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="30" uuid="6ff2c2d2-8e68-47b8-a830-37bfb88c9d63"/>
 				<textField>
-					<reportElement x="0" y="0" width="100" height="20"/>
-					<textElement/>
+					<reportElement x="0" y="0" width="100" height="20" uuid="261ff38f-f598-4c03-a525-66aabe1e134a"/>
 					<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="130" y="0" width="100" height="20"/>
-					<textElement/>
+					<reportElement x="130" y="0" width="100" height="20" uuid="46e3dd9d-c16f-4285-8194-62f3d942c89b"/>
 					<textFieldExpression><![CDATA[$F{username}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="286" y="0" width="100" height="20"/>
-					<textElement/>
+					<reportElement x="286" y="0" width="100" height="20" uuid="e102a921-2997-4f3f-b083-d316223461ec"/>
 					<textFieldExpression><![CDATA[$F{firstName}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="439" y="0" width="100" height="20"/>
-					<textElement/>
+					<reportElement x="439" y="0" width="100" height="20" uuid="dd9743e1-2a73-49d7-9c0c-a677050844b4"/>
 					<textFieldExpression><![CDATA[$F{lastName}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="588" y="0" width="100" height="20"/>
-					<textElement/>
+					<reportElement x="588" y="0" width="100" height="20" uuid="9920118b-a499-470d-ab4c-98edd7597ba3"/>
 					<textFieldExpression><![CDATA[$F{role}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -146,7 +148,7 @@
 	<columnFooter>
 		<band height="6" splitType="Stretch">
 			<line>
-				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1"/>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1" uuid="57ac5033-785a-4fb7-8adb-6102225a57a0"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#999999"/>
 				</graphicElement>

@@ -30,7 +30,7 @@
   	<javax.jstl-taglibs.version>1.1.2</javax.jstl-taglibs.version>
   	<jackson.version>1.9.3</jackson.version>
   	
-  	<jasper.version>4.5.0</jasper.version>
+  	<jasper.version>5.5.1</jasper.version>
   	<commons.digester.version>2.1</commons.digester.version>
   	<commons.collections.version>3.2.1</commons.collections.version>
   	
@@ -278,6 +278,10 @@
     			<artifactId>commons-logging</artifactId>
     			<groupId>commons-logging</groupId>
     		</exclusion>
+    		<exclusion>
+    			<groupId>com.lowagie</groupId>
+				<artifactId>itext</artifactId>
+    		</exclusion>
     	</exclusions>
 	</dependency>
 	
@@ -298,6 +302,18 @@
     	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
+    
+    <!-- 中文字体 -->
+    <dependency>
+		<groupId>com.lowagie</groupId>
+		<artifactId>itext</artifactId>
+		<version>4.2.1</version>
+	</dependency>
+	 <dependency>
+		<groupId>com.itextpdf</groupId>
+		<artifactId>itext-asian</artifactId>
+		<version>5.2.0</version>
+	</dependency>
 	
     <!-- Testing dependencies -->
 	<dependency>
@@ -321,6 +337,7 @@
     	<type>jar</type>
     	<scope>test</scope>
     </dependency>
+   
 
   </dependencies>
   
@@ -333,8 +350,8 @@
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>${maven.compiler.plugin.version}</version>
 			<configuration>
-				<source>1.6</source>
-				<target>1.6</target>
+				<source>1.7</source>
+				<target>1.7</target>
 			</configuration>
 		</plugin>
 		
